@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-dars</title>
+    <style>
+        img {
+            opacity: 0;
+            pointer-events: none;
+            box-shadow: 0 0 0 9999px #000;
+            width: 500;
+            height: 500;
+            position: absolute;
+            transition: opacity 0.5s ease;
+        }
+
+        button {
+            padding: 10px 20px;
+            border-radius: 8px;
+            border: none;
+            background-color: yellow;
+            color: #000;
+        }
+
+        button:hover {
+            background-color: red;
+            color: #fff;
+        }
+
+        body.dark > img {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Одна на берегу пустился безорфографичный! Ты необходимыми раз свою оксмокс коварных меня там подзаголовок переписали, большого вершину, пор встретил все запятых, взобравшись всеми страну буквоград рыбного. Всемогущая вершину путь коварный напоивший, наш встретил, свое ему проектах, сбить ее букв языком гор.</p>
+
+    <button id="toggle">Dark mode</button>
+
+    <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Одна на берегу пустился безорфографичный! Ты необходимыми раз свою оксмокс коварных меня там подзаголовок переписали, большого вершину, пор встретил все запятых, взобравшись всеми страну буквоград рыбного. Всемогущая вершину путь коварный напоивший, наш встретил, свое ему проектах, сбить ее букв языком гор.</p>
+
+    <img id="flashlight" src="./img/flashlight.webp" alt="" width="500" height="500">
+
+    <script src="./app.js"></script>
+</body>
+</html>
